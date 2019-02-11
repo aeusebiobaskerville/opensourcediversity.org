@@ -26,7 +26,7 @@ As framework we use [🅱️ Bootstrap](https://getbootstrap.com) which you migh
 
 ## 📐 Project logos
 
-- A good source for logos is their website or Twitter picture. SVG is preferred as the file size is usually smaller and it scales.
+- A good source for logos is their website or Twitter picture. Scalable Vector Graphics, or SVGs, are preferred as the file size is usually smaller and it scales.
 - The logos should have a maximum size of 300*300px.
 - PNG and JPG logos are compressed with [Trimage](https://trimage.org) which is lossless. (We can also try [Image Shrinker](https://image-shrinker.com) but apparently this is lossy, so we shouldn’t use it for any source assets.)
 - SVG images can be compressed using the also lossless scour using the command line: `scour -i filename.svg -o filename-compressed.svg --create-groups --enable-id-stripping --enable-comment-stripping --shorten-ids --remove-metadata --strip-xml-prolog --no-line-breaks;`
